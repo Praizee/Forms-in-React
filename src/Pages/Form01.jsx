@@ -37,14 +37,14 @@ export const Form01 = () => {
     return (
         <form className=" p-8 block space-x-8"
             onSubmit={handleSubmit}>
-            <label>
+            {/* <label>
                 Fruit:
                 <input type="text" value={inputValue} onChange={handleInputChange} />
             </label>
             {inputError && <div className=" text-red-600 italic">{inputError}</div>}
-            <button type="submit">Submit</button>
+            <button type="submit">Submit</button> */}
 
-            {/* <label htmlFor="name">Name:</label>
+            <label htmlFor="name">Name:</label>
             <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} />
             {inputError && <div className=" text-red-600 italic">{inputError}</div>}
 
@@ -56,7 +56,7 @@ export const Form01 = () => {
             <textarea id="message" name="message" value={formData.message} onChange={handleChange} />
             {inputError && <div className=" text-red-600 italic">{inputError}</div>}
 
-            <button type="submit">Submit</button> */}
+            <button type="submit">Submit</button>
         </form>
     );
 }
